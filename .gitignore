@@ -1,0 +1,31 @@
+# Compiled object files
+*.o
+*.obj
+
+# Compiled binary files
+*.exe
+*.out
+*.app
+
+# Debug files
+*.log
+*.dmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Visual Studio Code workspace settings
+.vscode/
+
+# MacOS system files
+*.DS_Store
+
+# Linux temporary files
+*~
