@@ -1,0 +1,44 @@
+Start
+  |
+  v
+Setup Game Variables (x, y, fruit, score, nTail)
+  |
+  v
+Clear Screen & Hide Cursor
+  |
+  v
++----------------------------+
+|      Game Loop             |
+| (while gameOver == 0)      |
++----------------------------+
+  |         |         |
+  |         |         v
+  |         |     Input? (W/A/S/D/Q)
+  |         |         |
+  |         |         v
+  |         |    Update Direction
+  |         |         |
+  |         |     If Q → gameOver = 1
+  |         v
+  |   Update Logic:
+  |      - Move Tail
+  |      - Move Snake Head
+  |      - Check Wall Collision
+  |      - Check Tail Collision
+  |      - Check Fruit Collision
+  |            → If eaten, score++, nTail++, new fruit
+  |
+  v
+Draw Screen (Walls, Snake, Fruit, Score)
+  |
+  v
+Delay (sleep_ms)
+  |
+  v
+End of Loop
+  |
+  v
+Show Cursor & Display "Game Over" with Score
+  |
+  v
+Stop
